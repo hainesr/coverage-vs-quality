@@ -18,13 +18,13 @@ def regression(file_name, second_index_quality, order):
     labels = ['',
               'Test Coverage',
               'Branch Coverage',
-              'Cyclomatic Complexity',
-              'Lines of Code',
-              'Number Of Methods',
-              'Improvement Lack of Cohesion in Methods',
-              'Lack of Documentation',
-              'Depth of Inheritance',
-              'Coupling Between Objects'
+              'McCabe\'s Cyclomatic Complexity (CC)',
+              'Lines of Code (LOC)',
+              'Number of local Methods (NOM)',
+              'Improvement of Lack of Cohesion in Methods (ILCOM)',
+              'Lack of Documentation (LOD)',
+              'Depth of Inheritance Tree (DIT)',
+              'Coupling Between Objects (CBO)'
              ]
 
     x = [0,0]
