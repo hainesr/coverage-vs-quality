@@ -46,7 +46,7 @@ def regression(file_name, second_index_quality, order):
     plt.legend([labels[1], labels[2]], loc='upper right')
 
 
-file_path = '../data/project data/combined/Merge/Merge all projects.csv'
+file_path = '../data/combined/Merge/Merge all projects.csv'
 for x in range(3,10):
     regression(file_path, x, 1)
     plt.show()
