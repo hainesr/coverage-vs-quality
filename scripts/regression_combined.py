@@ -9,7 +9,6 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import scipy.stats as stats
 
 def regression(file_name, second_index_quality, order):
 
