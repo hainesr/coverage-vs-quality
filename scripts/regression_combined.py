@@ -42,6 +42,7 @@ def regression(file_name, second_index_quality, order):
     plt.title(labels[second_index_quality])
     plt.plot(x[0], ys[0])
     plt.plot(x[1], ys[1])
+    plt.ylim(ymin=0)
     plt.legend([labels[1], labels[2]], loc='upper right')
 
 
