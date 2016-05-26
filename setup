@@ -1,0 +1,15 @@
+#!/bin/bash
+#------------------------------------------------------------------------------
+# Copyright (c) 2016, The University of Manchester, UK.
+#
+# Licenced under BSD. See LICENCE for details.
+#
+# Author: Robert Haines
+#------------------------------------------------------------------------------
+
+docker run -it --rm \
+  --name quality-analysis \
+  --volume=/tmp/.X11-unix:/tmp/.X11-unix \
+  -e DISPLAY=unix$DISPLAY \
+  -e LANG \
+  hainesr/quality
