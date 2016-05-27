@@ -12,11 +12,17 @@ These analysis tools can be run via a [Docker][docker] container, which will sim
 
 * You will need Docker installed. Please see the [installation instructions for your platform][dockerdocs] to get started.
 * Run the `setup` script. This will download the Docker image (if necessary), startup the container and connect the current directory into the container for saving any outputs. When you exit the container it will be automatically cleaned up.
-* If you would rather run the Docker container with your own options you can do so in the usual way - see the `setup` script for more details. The image is [available on the Docker Hub][dockerhub].
+ * If you would rather run the Docker container with your own options you can do so in the usual way - see the `setup` script for more details. The image is [available on the Docker Hub][dockerhub].
+* Change into the `scripts` directory.
+* Run: `python regression_combined.py`
 
 ### Without Docker
 
-* You will need `Python`, `numpy`, `pandas` and `matplotlib` installed.
+* You will need to install:
+ * `Python`
+ * `numpy`
+ * `pandas`
+ * `matplotlib`
 * Change into the `scripts` directory.
 * Run: `python regression_combined.py`
 
