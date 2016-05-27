@@ -1,7 +1,7 @@
 #------------------------------------------------------------------------------
 # Copyright (c) 2015, 2016, The University of Manchester, UK.
 #
-# Licenced under BSD. See LICENCE for details.
+# BSD licenced. See LICENCE for details.
 #
 # Authors: Arturo Wong, Robert Haines
 #------------------------------------------------------------------------------
